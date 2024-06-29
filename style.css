@@ -1,0 +1,181 @@
+@font-face {
+    font-family: 'The Heather';
+    src: url('fonts/Mutlu__Ornamental.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'The Heather_2';
+    src: url('fonts/HEATHER_.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'The Heather_3';
+    src: url('fonts/Isenheim_Regulier.otf') format('Opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'The Heather_4';
+    src: url('fonts/Isenheim_Fin.otf') format('Opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'The Heather_3', sans-serif;
+    color: #333; 
+    font-size: 0.87rem;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Header styles */
+header {
+    background:linear-gradient(gray,white);
+    padding: 30px 0;
+    width: 100%;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'The Heather', sans-serif;
+    color: #333;
+    font-size: 3rem;
+}
+
+header p {
+    font-family: 'The Heather_2', sans-serif;
+    color: #333;
+    font-size: 1.2rem;
+
+}
+menu {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 7px 0 7px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    font-size: 14px;
+}
+
+menu nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-family: 'The Heather_4', sans-serif;
+    color: #333;
+    font-size: 0.80rem;
+    font-weight: bold;
+}
+
+menu nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: color 0.3s ease, border 0.2s linear;
+}
+
+menu nav ul li a:hover {
+    border-bottom: 2px solid #007bff;
+    color: #007bff;
+}
+
+.my-name h1 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+/* Main section styles */
+main {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fefefe;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    width: 80%;
+    max-width: 900px;
+    margin-bottom: 20px;
+}
+
+.intro {
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.intro p {
+    font-family: 'The Heather_3', sans-serif;
+    color: #333; 
+    font-size: 0.87rem;
+}
+
+.intro-image img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.content {
+    padding: 40px;
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    align-items: center;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 12px;
+    margin: 0;
+}
+
+.footer-1 p:nth-child(1) {
+    color: yellow;
+}
+
+/* Ensuring specific styles for h1 within the header */
+header h1 {
+    font-family: 'The Heather', sans-serif;
+}
