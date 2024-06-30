@@ -174,8 +174,3 @@ footer p {
 .footer-1 p:nth-child(1) {
     color: yellow;
 }
-
-/* Ensuring specific styles for h1 within the header */
-header h1 {
-    font-family: 'The Heather', sans-serif;
-}
